@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+#quote-box {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+blockquote {
+  font-size: 1.5rem;
+}
+
+#author {
+  text-align: right;
+}
+
+.button-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+#tweet-quote {
+  white-space: nowrap;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: lightcyan;
+}
+.q{
+  background-color: #61dafb;
+}
